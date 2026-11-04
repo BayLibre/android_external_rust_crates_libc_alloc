@@ -1,0 +1,28 @@
+name: "libc_alloc"
+description: "A simple global allocator which hooks into libc's malloc/free"
+third_party {
+  version: "1.0.7"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/libc_alloc"
+  identifier {
+    type: "crates.io"
+    value: "libc_alloc"
+    version: "1.0.7"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/libc_alloc/libc_alloc-1.0.7.crate"
+    version: "1.0.7"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/daniel5151/libc_alloc"
+    version: "763cead9a7f72bf1d9fb743191d4198c19a77f7b"
+  }
+}
